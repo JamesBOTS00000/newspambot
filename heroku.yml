@@ -1,0 +1,5 @@
+build:
+  docker:
+      Tron: Dockerfile
+run:
+   Tron: python3 -m XTron
