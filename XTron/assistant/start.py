@@ -9,7 +9,7 @@ from telethon.tl.functions.users import GetFullUserRequest
 
 btn = [
       [
-      Button.url("⚠️ OWNER ⚠️", "https://t.me/SPA4KY")
+      Button.url("⚠️ OWNER ⚠️", "https://t.me/itzz_james")
       ],
       [
       Button.inline("➕ BOT HELP ➕", data="help")
@@ -172,7 +172,7 @@ async def _(event):
 
 
 
-RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
+RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/62296205396eaeb7f4d1f.jpg"
 
         
 @Tron.on(events.NewMessage(pattern="[!/]ping"))
@@ -272,9 +272,9 @@ async def alive(event):
               ids += 1
            if STRING40:
               ids += 1 
-           Caption = f"**XTron is Alive..!💞** \n\n"
+           Caption = f"**James Bot is Alive..!** \n\n"
            Caption += f"============================= \n"
-           Caption += f"• **XTron Version:** `{rizoelversion}` \n"
+           Caption += f"• **James Bot Version:** `{rizoelversion}` \n"
            Caption += f"• **Python Version:** `3.10.4` \n"
            Caption += f"• **Telethon Version:** `{version.__version__}` \n"
            Caption += f"• **Master:** [{OWNER_ID}](tg://user?id={OWNER_ID}) \n"
@@ -285,15 +285,15 @@ async def alive(event):
                                 caption=Caption, 
                                 buttons=[
            [
-           Button.url("✘ CHANNEL ✘", "https://t.me/Rst_Bots"),
-           Button.url("✘ OWNER ✘", "https://t.me/SPA4KY")
+           Button.url("✘ CHANNEL ✘", "https://t.me/shutupjames"),
+           Button.url("✘ OWNER ✘", "https://t.me/itzz_james")
            ], 
            ], 
            )        
         except Exception as ex:
-           Caption = f"**XTron Is Alive..!💞** \n\n"
+           Caption = f"**James Bot Is Alive..!💞** \n\n"
            Caption += f"============================= \n"
-           Caption += f"• **XTron Version:** `{rizoelversion}` \n"
+           Caption += f"• **James Bot Version:** `{rizoelversion}` \n"
            Caption += f"• **Python Version:** `3.10.4` \n"
            Caption += f"• **Telethon Version:** `{version.__version__}` \n"
            Caption += f"• **Master:** [{OWNER_ID}](tg://user?id={OWNER_ID}) \n"
@@ -303,8 +303,8 @@ async def alive(event):
                                 caption=Caption, 
                                 buttons=[
            [
-           Button.url("✘ CHANNEL ✘", "https://t.me/Rst_Bots"),
-           Button.url("✘ OWNER ✘", "https://t.me/SPA4KY")
+           Button.url("✘ CHANNEL ✘", "https://t.me/shutupjames"),
+           Button.url("✘ OWNER ✘", "https://t.me/itzz_james")
            ], 
            ], 
            )
