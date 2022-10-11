@@ -18,7 +18,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 
 #version
 
-rizoelversion = "v0.0.1"
+rizoelversion = "0.0.2"
 StartTime = time.time()
 
 #values
