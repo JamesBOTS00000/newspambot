@@ -100,7 +100,7 @@ async def ping(e):
         end = datetime.now()
         ms = (end-start).microseconds / 1000
         uptime = xHell((time.time() - StartTime) * 1000)
-        pingop = f"✘ {pongg} ✘ \n\n x 𝗣𝗶𝗻𝗴 : `{ms}` 𝗺𝘀 \n x 𝗨𝗽𝘁𝗶𝗺𝗲 : *{uptime}*"
+        pingop = f"✘ {pongg} ✘ \n\n x 𝗣𝗶𝗻𝗴 : `{ms}` 𝗺𝘀 \n x 𝗨𝗽𝘁𝗶𝗺𝗲 : {*uptime*}"
         await fuk.edit(pingop)
        
 @Riz.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -158,7 +158,7 @@ async def alive(event):
            rizoel += f"    ✘ **Name** : **{Name}** \n    ✘ **UserName** : @{username}\n"
        else:
            rizoel += "✘ **Assistant:** __Off__\n"
-       rizoel += f"✘ **Owner** : [𝗝𝗔𝗠𝗘𝗦](https://t.me/itzz_james)\n"
+       rizoel += f"✘ **Owner** : [𝗝 𝗔 𝗠 𝗘 𝗦](https://t.me/itzz_james)\n"
        await event.client.send_file(event.chat_id,
                                   RIZ_PIC,
                                   caption=rizoel)
