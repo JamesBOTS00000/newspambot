@@ -100,7 +100,7 @@ async def ping(e):
         end = datetime.now()
         ms = (end-start).microseconds / 1000
         uptime = xHell((time.time() - StartTime) * 1000)
-        pingop = f"✘ {pongg} ✘ \n\n x 𝗣𝗶𝗻𝗴 : `{ms}` 𝗺𝘀 \n x 𝗨𝗽𝘁𝗶𝗺𝗲 : {*uptime*}"
+        pingop = f"✘ {pongg} ✘ \n\n x 𝗣𝗶𝗻𝗴 : `{ms}` 𝗺𝘀 \n x 𝗨𝗽𝘁𝗶𝗺𝗲 : **{uptime}**"
         await fuk.edit(pingop)
        
 @Riz.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -146,7 +146,7 @@ async def ping(e):
 async def alive(event):
    if event.sender_id in SUDO_USERS or event.sender_id in DEV:
        rizoel = f"✘ {Alivemsg} ✘\n\n"
-       rizoel += f"=============================\n"
+       rizoel += f"==============================\n"
        rizoel += f"✘ **Python Version** : `3.10.4`\n"
        rizoel += f"✘ **Telethon Version** : `{version.__version__}`\n"
        rizoel += f"✘ **James Bot Version**  : `{rizoelversion}`\n"  
@@ -158,7 +158,7 @@ async def alive(event):
            rizoel += f"    ✘ **Name** : **{Name}** \n    ✘ **UserName** : @{username}\n"
        else:
            rizoel += "✘ **Assistant:** __Off__\n"
-       rizoel += f"✘ **Owner** : [𝗝 𝗔 𝗠 𝗘 𝗦](https://t.me/itzz_james)\n"
+       rizoel += f"✘ **Owner** : [♡ JAMES ♡](https://t.me/itzz_james)\n"
        await event.client.send_file(event.chat_id,
                                   RIZ_PIC,
                                   caption=rizoel)
