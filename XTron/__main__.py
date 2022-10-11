@@ -42,8 +42,8 @@ if BOT_TOKEN:
     print("Assisting Bot set up complete!")
 
 
-print("XTron Deployed Successfully!")
-print("Enjoy @SPA4KY..!")
+print("James Bot Deployed Successfully!")
+print("Enjoy @itzz_james..!")
 
 if len(argv) not in (1, 3, 4):
     try:
